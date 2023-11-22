@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    background-color: bisque;
+    padding-left: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: Agbalumo, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+img{
+    border-radius: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color:rgb(95, 31, 154);
+}
+p{
+    color:darkgoldenrod;
+}
+button{
+    
+}
+button:first-of-type{
+    background-color:white;
+    border: 3px;
+    border-style:solid;
+    border-color: darkgoldenrod;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: Inter, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color:bisque;
+    
+}
+button:last-of-type{
+    background-color:darkgoldenrod;
+    border: 3px;
+    border-style:solid;
+    border-color: white;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: Inter, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color:bisque;
+}
+button:first-of-type:hover{
+    background-color:bisque;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(182, 127, 60);
+    color: rgb(182, 127, 60);
+}
+button:last-of-type:hover{
+    background-color:bisque;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
